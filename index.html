@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.scss">
+    <link rel="stylesheet" href="/SCSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div><a href="/mass.html">3 задание</a>
+        <br>
+        <a href="/massive.html">1 задание</a></div>
+    <main>
+
+
+        <h3>Марка</h3>
+        <div class="mark">
+            <select class="marka">
+                <option value="peugeot">Peugeot</option>
+                <option value="bmw">BMW</option>
+                <option value="opel">Opel</option>
+            </select>
+        </div>
+        <div class="privod">
+            <h3>Привод</h3>
+            <input type="radio" class="drive" value="1" checked>
+            <label for="">Передний привод</label>
+            <input type="radio" class="drive" value="2">
+            <label for="">Задний привод</label>
+            <input type="radio" class="drive" value="3">
+            <label for="">4WD</label>
+        </div>
+        <div class="yeargrade">
+            <h3>Год выпуска</h3>
+            <select class="year">
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+                <option value="2017">2017</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2014">2014</option>
+            </select>
+        </div>
+        <h3>Салон</h3>
+        <div class="salon">
+
+            <input type="checkbox" class="sal" value="s1" checked>
+            <label for=""> Подогрев передних сидений</label>
+            <input type="checkbox" class="sal" value="s2">
+            <label for="">Вентиляция передних сидений</label>
+            <input type="checkbox" class="sal" value="s3">
+            <label for=""> Вентиляция задних сидений</label>
+            <input type="checkbox" class="sal" value="s4">
+            <label for="">Подогрев задних сидений</label>
+            <input type="checkbox" class="sal" value="s5">
+            <label for=""> Складывающееся заднее сидение (опция)</label>
+            <input type="checkbox" class="sal" value="s6">
+            <label for=""> Обогрев рулевого колеса</label>
+            <input type="checkbox" class="sal" value="s7">
+            <label for=""> Отделка кожей рулевого колеса</label>
+            <input type="checkbox" class="sal" value="s8">
+            <label for="">Электрорегулировка сидений</label>
+        </div>
+        <div class="col">
+            <h3>Цвет</h3>
+            <input type="radio" class="color" value="red" checked>
+            <label for="">Красный</label>
+            <input type="radio" class="color" value="black">
+            <label for="">Черный</label>
+            <input type="radio" class="color" value="blue">
+            <label for="">Синий</label>
+            <input type="radio" class="color" value="white">
+            <label for="">Белый</label>
+            <input type="radio" class="color" value="grey">
+            <label for="">Серый</label>
+        </div>
+        <div class="run">
+            <h3>Пробег, км</h3>
+            <input type="text" id="txt">
+        </div>
+        <h3>Владельцев по ПТС</h3>
+        <div class="hoz">
+
+            <p>
+                <input type="radio" class="master" value="m1" checked>1</p>
+            <p>
+                <input type="radio" class="master" value="m2">2</p>
+            <p>
+                <input type="radio" class="master" value="m3">3</p>
+            <p>
+                <input type="radio" class="master" value="m4">4+</p>
+
+        </div>
+        <div class="res">
+            <button class="button" type="button" onclick="click()">
+                <p>Рассчитать</p>
+            </button>
+            <div class="result"></div>
+        </div>
+    </main>
+    <script src="/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+  width: 50vw;
+  position: relative;
+  margin-left: 25vw;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid #aa00ff;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.mark {
+  padding-bottom: 20px;
+}
+
+.privod {
+  padding-bottom: 20px;
+}
+
+.yeargrade {
+  padding-bottom: 20px;
+}
+
+.salon {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40px 3fr;
+      grid-template-columns: 40px 3fr;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-bottom: 20px;
+}
+
+.col {
+  padding-bottom: 20px;
+}
+
+.run {
+  padding-bottom: 20px;
+}
+
+.hoz {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.button {
+  background-color: #e9cde9;
+  width: 50vw;
+  height: 60px;
+}
+
+.button p {
+  color: black;
+  font-size: medium;
+}
+
+.result {
+  padding-top: 20px;
+  width: 250px;
+  height: 60px;
+}
+
+.res {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
